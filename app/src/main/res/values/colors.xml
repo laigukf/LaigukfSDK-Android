@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6C9EFC</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+
+    <color name="test_red">#fc5369</color>
+    <color name="test_green">#00ce7d</color>
+    <color name="test_blue">#50a3fc</color>
+
+
+    <!--通过覆盖资源id的形式自定义来鼓UI START-->
+    <color name="lg_colorPrimary">@color/colorPrimary</color>
+    <color name="lg_colorPrimaryDark">@color/colorPrimaryDark</color>
+
+    <color name="lg_activity_title_textColor">@android:color/white</color>
+    <color name="lg_activity_title_bg">@color/colorPrimary</color>
+
+    <color name="lg_chat_left_textColor">@android:color/black</color>
+    <color name="lg_chat_right_textColor">@android:color/white</color>
+
+    <color name="lg_chat_left_bubble">#E6E6EA</color>
+    <color name="lg_chat_right_bubble">@color/colorPrimary</color>
+    <!--通过覆盖资源id的形式自定义来鼓UI END-->
 </resources>
