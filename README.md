@@ -9,7 +9,7 @@
 
 ```
 // -------------------- 以下三个库是必须依赖的 okhttp 必须 3.5.0 或者更高版本 ----------------------------
-implementation 'com.laigu:laigusdk:3.6.3'
+implementation 'com.laigu:laigusdk:3.6.4'
 implementation 'com.android.support:support-v4:23.1.1'
 //    implementation 'androidx.legacy:legacy-support-v4:1.0.0' // androidx 使用
 implementation 'com.squareup.okhttp3:okhttp:3.5.0'
@@ -38,6 +38,7 @@ LGConfig.init(this, "Your Appkey", new OnInitCallback() {
         Toast.makeText(MainActivity.this, "int failure", Toast.LENGTH_SHORT).show();
     }
 });
+```
 
 ### 2.启动对话界面
 
